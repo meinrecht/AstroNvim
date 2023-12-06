@@ -9,4 +9,16 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "folke/trouble.nvim",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    opts = {},
+    event = "User AstroFile",
+  },
+  {
+    "folke/todo-comments.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    opts = {},
+    event = "User AstroFile",
+  },
 }
